@@ -36,8 +36,8 @@ const Faqsec = () => {
           <span className="lg:block"></span> volutpat mi leo. Nibh nisl
           consequat metus.
               </p>
-               <div className=' max-w-[774px] mx-auto'>
-              <div data-aos="fade-down"  className={`border  border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+               <div className=' max-w-[774px] mx-auto'data-aos="fade-down">
+              <div   className={`border  border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 1 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(1)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
@@ -48,7 +48,7 @@ const Faqsec = () => {
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
+              <div   className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
             open === 2 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
@@ -59,7 +59,7 @@ const Faqsec = () => {
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
+              <div   className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
             open === 3 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(3)}     className={`pb-6 pt-6 sm:px-6 px-3 text-start font-outfit text-sm sm:text-base font-medium text-black ${
@@ -70,7 +70,7 @@ const Faqsec = () => {
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+              <div className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 4 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(4)}     className={`pb-6 pt-6 text-start sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
@@ -81,7 +81,7 @@ const Faqsec = () => {
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div data-aos="fade-down"  className={`border border-[#A854E933] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+              <div  className={`border border-[#A854E933] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 5 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(5)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${

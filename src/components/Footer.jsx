@@ -126,7 +126,7 @@ const Footer = () => {
                                   </li>
                                    <li className="md:pb-[14px] pb-1">
                     <a
-                      href=""
+                      href="tel:(629) 555-0129"
                       className=" font-exo font-normal hover:text-white footerlinkhover transition-all duration-300 text-[#B7B7B4] sm:text-base text-sm"
                     >
                     (629) 555-0129

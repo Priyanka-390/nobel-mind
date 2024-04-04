@@ -50,8 +50,8 @@ const Subscribesec = () => {
           <p data-aos="fade-down" className="sm:pt-2 pt-1 md:pb-9 sm:pb-6 pb-4 text-[#FDFDFF] sm:text-base text-sm font-normal text-center">
             Be the first to get exclusive offers and the latest news.
                   </p>
-                  <form onSubmit={handleSubmit} className="max-w-[448px] rounded-md flex justify-between py-3 bg-transparent border-[#FDFDFF33] border mx-auto">
-                      <input type="email" placeholder="Enter your email" className=" pl-6 w-full focus-visible:outline-none placeholder:text-[#FDFDFF] bg-transparent"  name="email"
+                  <form onSubmit={handleSubmit} className="max-w-[448px] bg-[#8E62DC] text-white rounded-md flex justify-between py-3 bg-transparent border-[#FDFDFF33] border mx-auto">
+                      <input type="email" placeholder="Enter your email" className=" pl-6 w-full focus-visible:outline-none text-white placeholder:text-[#FDFDFF] bg-transparent"  name="email"
                   value={formData.email}
                   onChange={handleChange}
                 />

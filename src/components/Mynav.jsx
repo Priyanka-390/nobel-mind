@@ -19,7 +19,7 @@ const Mynav = () => {
                   <a href="#"><img src={navlogo} alt="logo" /></a>
                   <ul className={`flex gap-6 items-center mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>
-                      <li><a href="" onClick={nav} className=' font-exo hover:text-[#131200] font-normal text-base md:leading-[24px] text-[#5A594D]'>Home</a></li>
+                      <li><a href="#home" onClick={nav} className=' font-exo hover:text-[#131200] font-normal text-base md:leading-[24px] text-[#5A594D]'>Home</a></li>
                       <li><a href="#about" onClick={nav} className=' font-exo font-normal hover:text-[#131200] text-base md:leading-[24px] text-[#5A594D]'>About Us</a></li>
                       <li><a href="#subscribe" onClick={nav} className=' font-exo font-normal hover:text-[#131200] text-base md:leading-[24px] text-[#5A594D]'>Services</a></li>
                       <li><a href="#driving" onClick={nav} className=' font-exo font-normal hover:text-[#131200] text-base md:leading-[24px] text-[#5A594D]'>Why Choose Us</a></li>
