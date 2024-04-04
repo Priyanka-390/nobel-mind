@@ -54,7 +54,7 @@ const Drivingsec = () => {
           pagination={{ clickable: true }}
           className="lg:!py-[52px] md:!py-10 !py-8">
             <SwiperSlide>
-                <div className="card max-w-[364px] mx-auto cardslider h-[210px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-sm:max-w-[364px] mx-auto cardslider h-[210px] p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <One />
                   </div>
@@ -68,7 +68,7 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-w-[364px] mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-sm:max-w-[364px]  mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Two />
                   </div>
@@ -81,7 +81,7 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-w-[364px] mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-sm:max-w-[364px] mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Three />
                   </div>
