@@ -1,4 +1,5 @@
 import React from "react";
+import triangle from "../assets/images/herotriangle.webp"
 import drivingimg from "../assets/images/drivingimg.webp"
 import { One, Star, Three, Two } from "./Icon";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,10 +16,12 @@ import {
 
 const Drivingsec = () => {
   return (
-      <div id="driving">
+    <div id="driving" className="relative  overflow-x-clip">
+      <img src={triangle} alt="triangle" className="absolute top-[5%] left-[3%] animate-bounce-slow" />
+      <img src={triangle} alt="triangle" className="absolute bottom-[7%] right-[3%] animate-bounce-slow" />
           <img src={drivingimg} alt="driving" className="md:hidden block" />
-      <div className="container max-w-[1140px] px-3 mx-auto">
-        <div className="flex justify-center md:pt-0 pt-4">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
+        <div className="flex justify-center md:pt-0 pt-4" data-aos="flip-down">
           <p className="flex pr-2">
             <Star />
             <span className=" font-exo pl-2  font-normal sm:text-base text-sm md:leading-6">
@@ -26,7 +29,7 @@ const Drivingsec = () => {
             </span>
           </p>
         </div>
-        <h2 className=" font-light sm:pt-2 pt-1 text-center font-outfit md:leading-[57.6px] lg:text-5xl sm:text-4xl text-3xl text-black">
+        <h2 data-aos="flip-down" className=" font-light sm:pt-2 pt-1 text-center font-outfit md:leading-[57.6px] lg:text-5xl sm:text-4xl text-3xl text-black">
           Driving Innovation &{" "}
           <span className="font-semibold block">Transforming Industries</span>
         </h2>
@@ -51,7 +54,7 @@ const Drivingsec = () => {
           pagination={{ clickable: true }}
           className="lg:!py-[52px] md:!py-10 !py-8">
             <SwiperSlide>
-                <div className="card max-w-[364px] mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-w-[364px] mx-auto cardslider h-[210px] p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <One />
                   </div>
@@ -104,7 +107,7 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
               </Swiper>
-              <img src={drivingimg} alt="driving" className="md:pt-8 hidden md:block" />
+              <img src={drivingimg} alt="driving" className="md:pt-8 hidden md:block" data-aos="zoom-in" />
       </div>
     </div>
   );

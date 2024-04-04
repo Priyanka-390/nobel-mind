@@ -1,4 +1,5 @@
 import React from "react";
+import triangle2 from "../assets/images/herotriangle.webp"
 import {
   Accordion,
   AccordionHeader,
@@ -23,68 +24,70 @@ const Faqsec = () => {
  
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
-    <div id="faq" className="pb-36">
-      <div className="container max-w-[1140px] px-3 mx-auto">
-        <h2 className="text-center font-outfit text-5xl md:leading-[57.6px] font-light">
+    <div id="faq" className="lg:pb-36 md:pb-28 sm:pb-20 relative z-10 overflow-x-clip">
+      <img src={triangle2} alt="triangle" className="absolute top-[-5%] left-[5%] animate-bounce-slow" />
+       <img src={triangle2} alt="triangle" className="absolute top-[50%] right-[3%] animate-bounce-slow" />
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
+        <h2 data-aos="fade-down" className="text-center font-outfit lg:text-5xl sm:text-4xl text-3xl md:leading-[57.6px] font-light">
           Frequently <span className="font-semibold">Asked Questions</span>
         </h2>
-        <p className="text-center md:pt-4 pb-[52px] sm:pt-3 pt-2 font-normal font-exo text-[#5A594D] sm:text-base text-sm ">
+        <p data-aos="fade-down" className="text-center md:pt-4 lg:pb-[52px] md:pb-10 sm:pb-8 pb-4 sm:pt-3 pt-2 font-normal font-exo text-[#5A594D] sm:text-base text-sm ">
           Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu{" "}
           <span className="lg:block"></span> volutpat mi leo. Nibh nisl
           consequat metus.
               </p>
                <div className=' max-w-[774px] mx-auto'>
-              <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+              <div data-aos="fade-down"  className={`border  border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 1 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
-                          <AccordionHeader onClick={() => handleOpen(1)}     className={`pb-6 pt-6 px-6 font-outfit text-sm sm:text-base font-medium text-black ${
+                          <AccordionHeader onClick={() => handleOpen(1)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
             open === 1 ? "pb-3" : ""
           }`}>What is Artificial Intelligence (AI)?</AccordionHeader>
-                          <AccordionBody className="pb-6 px-6 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
+                          <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
+              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
             open === 2 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
-                          <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 pt-6 px-6 font-outfit text-sm sm:text-base font-medium text-black ${
+                          <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
             open === 2 ? "pb-3" : ""
           }`}>How does AI benefit our company?</AccordionHeader>
-                           <AccordionBody className="pb-6 px-6 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
+                           <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
+              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
             open === 3 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-                          <AccordionHeader onClick={() => handleOpen(3)}     className={`pb-6 pt-6 px-6 font-outfit text-sm sm:text-base font-medium text-black ${
+                          <AccordionHeader onClick={() => handleOpen(3)}     className={`pb-6 pt-6 sm:px-6 px-3 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 3 ? "pb-3" : ""
           }`}>What types of AI technologies are relevant to our industry?</AccordionHeader>
-                         <AccordionBody className="pb-6 px-6 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
+                         <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+              <div data-aos="fade-down"  className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 4 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
-                          <AccordionHeader onClick={() => handleOpen(4)}     className={`pb-6 pt-6 px-6 font-outfit text-sm sm:text-base font-medium text-black ${
+                          <AccordionHeader onClick={() => handleOpen(4)}     className={`pb-6 pt-6 text-start sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
             open === 4 ? "pb-3" : ""
           }`}>How can our employees adapt to AI integration?</AccordionHeader>
-                          <AccordionBody className="pb-6 px-6 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
+                          <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
                           </AccordionBody>
                         </Accordion>
               </div>
-              <div   className={`border border-solid border-[#A854E933] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
+              <div data-aos="fade-down"  className={`border border-[#A854E933] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
             open === 5 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
-                          <AccordionHeader onClick={() => handleOpen(5)}     className={`pb-6 pt-6 px-6 font-outfit text-sm sm:text-base font-medium text-black ${
+                          <AccordionHeader onClick={() => handleOpen(5)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
             open === 5 ? "pb-3" : ""
           }`}>How can our company ensure data security with AI?</AccordionHeader>
-                            <AccordionBody className="pb-6 px-6 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
+                            <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
                           </AccordionBody>
                         </Accordion>

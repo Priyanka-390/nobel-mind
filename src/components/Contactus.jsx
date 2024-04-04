@@ -57,11 +57,11 @@ const Contactus = () => {
     });
   };
   return (
-    <div id="contact" className="lg:py-36 md:py-28 sm:py-20 py-10">
-      <div className="container max-w-[1140px] px-3 mx-auto">
+    <div id="contact" className="lg:py-36 md:py-28 sm:py-20 py-10  overflow-x-clip">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex flex-col-reverse md:flex-row items-center flex-wrap -mx-3">
-          <div className="md:w-6/12 px-3 flex md:justify-start justify-center flex-col md:mx-0 mx-auto">
-            <h2 className=" font-outfit font-semibold text-5xl md:leading-[57.6px]">
+          <div className="md:w-6/12 px-3 flex md:justify-start justify-center flex-col md:mx-0 mx-auto" data-aos="fade-right">
+            <h2 className=" font-outfit font-semibold lg:text-5xl sm:text-4xl text-3xl md:leading-[57.6px]">
               Contact <span className="font-light"> Us</span>{" "}
             </h2>
             <p className="lg:py-4 md:py-3 py-2 font-exo font-normal text-base text-[#5A594D]">
@@ -76,7 +76,7 @@ const Contactus = () => {
                   </label>
                   <input
                     type="text"
-                    className=" w-full h-[48px] rounded-lg border-solid border border-[#13120033]"
+                    className=" w-full ps-3 focus-visible:outline-none h-[48px] rounded-lg border-solid border border-[#13120033]"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
@@ -139,7 +139,7 @@ const Contactus = () => {
               )}
             </form>
           </div>
-          <div className="md:w-6/12 px-3 md:pb-0 pb-4">
+          <div className="md:w-6/12 px-3 md:pb-0 pb-4" data-aos="fade-left">
             <img src={formimg} alt="imgf" className="rounded-[12px]" />
           </div>
         </div>

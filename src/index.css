@@ -6,4 +6,7 @@
   .mobileView{
     @apply max-lg:bg-white z-20 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
   }
+   .footerlinkhover {
+    @apply after:absolute relative hover:after:left-[0] after:bottom-[-2px] after:w-0 after:left-[50%] after:rounded-[10px] after:h-[3px] after:bg-white hover:after:w-full after:duration-300
+  }
 }

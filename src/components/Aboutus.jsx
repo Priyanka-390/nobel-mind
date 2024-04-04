@@ -6,15 +6,15 @@ import Buttons from "./Buttons";
 
 const Aboutus = () => {
   return (
-    <div id="about" className=" lg:py-36 md:py-28 sm:py-20 py-10 relative z-10">
-      <img src={triangle} alt="triangle" className=" absolute top-[-5%] left-[5%]" />
-      <img src={triangle} alt="triangle" className=" absolute bottom-[15%] right-[5%]" />
-      <div className="container max-w-[1140px] px-3 mx-auto">
+    <div id="about" className=" lg:py-36 md:py-28 sm:py-20 py-10 relative z-10 overflow-x-clip">
+      <img src={triangle} alt="triangle" className=" absolute top-[-5%] left-[5%] animate-bounce-slow" />
+      <img src={triangle} alt="triangle" className=" absolute bottom-[15%] right-[5%] animate-bounce-slow" />
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex items-center flex-row -mx-3 flex-wrap">
-          <div className="md:w-6/12 px-3 flex md:justify-start md:mx-0 mx-auto justify-center">
+          <div className="md:w-6/12 px-3 flex md:justify-start md:mx-0 mx-auto justify-center" data-aos="fade-right">
             <div className=" flex md:justify-start justify-center md:mx-0 mx-auto md:items-start items-center"><img src={aboutimg} alt="img" className="w-full md:pr-16"  /></div>
           </div>
-          <div className="md:w-6/12 md:pt-0 pt-4 px-3 ">
+          <div className="md:w-6/12 md:pt-0 pt-4 px-3 " data-aos="fade-left">
             <div className="flex md:justify-start justify-center">
               <p className="flex pr-2">
                 <Star />

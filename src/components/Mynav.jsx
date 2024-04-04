@@ -14,7 +14,7 @@ const Mynav = () => {
   }
   return (
     <div>
-          <div className="container max-w-[1140px] mx-auto px-3">
+          <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
               <div className='py-5 flex items-center justify-between'>
                   <a href="#"><img src={navlogo} alt="logo" /></a>
                   <ul className={`flex gap-6 items-center mobileView  ${ show ? "right-[-100%]" : "right-0"
