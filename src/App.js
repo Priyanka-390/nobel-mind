@@ -42,7 +42,7 @@ function App()
         </div>
       ) : (
     <div className="App">
-      <div className='bg-[url(./assets/images/bgimg.webp)] flex flex-col bg-no-repeat md:bg-size sm:min-h-screen min-h-[600px]'>
+      <div className='bg-[url(./assets/images/bgimg.webp)] flex flex-col bg-no-repeat md:bg-size sm:min-h-screen min-h-[500px]'>
         <Mynav />
         <Herosec/>
       </div>
