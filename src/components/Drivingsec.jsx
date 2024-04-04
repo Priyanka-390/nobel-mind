@@ -17,9 +17,9 @@ import {
 const Drivingsec = () => {
   return (
     <div id="driving" className="relative  overflow-x-clip">
-      <img src={triangle} alt="triangle" className="absolute top-[5%] left-[3%] animate-bounce-slow" />
-      <img src={triangle} alt="triangle" className="absolute bottom-[7%] right-[3%] animate-bounce-slow" />
-          <img src={drivingimg} alt="driving" className="md:hidden block max-md:h-[567px] h-full object-cover px-3" />
+      <img src={triangle} alt="triangle" className="absolute top-[5%] sm:block hidden left-[3%] animate-bounce-slow" />
+      <img src={triangle} alt="triangle" className="absolute bottom-[7%] sm:block hidden right-[3%] animate-bounce-slow" />
+          <img src={drivingimg} alt="driving" className="md:hidden rounded-[30px] block max-md:h-[300px] h-full object-cover px-3" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex justify-center md:pt-0 pt-4" data-aos="flip-down">
           <p className="flex pr-2">

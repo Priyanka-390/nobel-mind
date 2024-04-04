@@ -16,7 +16,7 @@ const Mynav = () => {
     <div>
           <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
               <div className='py-5 flex items-center justify-between'>
-                  <a href="#"><img src={navlogo} alt="logo" /></a>
+                  <a href="#"><img src={navlogo} alt="logo" className='max-sm:max-w-[140px]' /></a>
                   <ul className={`flex gap-6 items-center mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>
                       <li><a href="#home" onClick={nav} className=' font-exo hover:text-[#131200] font-normal text-base md:leading-[24px] text-[#5A594D]'>Home</a></li>
@@ -30,9 +30,9 @@ const Mynav = () => {
                    <label className=" lg:hidden" onClick={nav}>
             {show ? (
               <div className="z-20 relative">
-                <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6"></span>
-                <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
-                <span className="flex bg-black h-[3px] rounded-3xl duration-300 w-6 mt-1"></span>
+                <span className="flex bg-black h-[4px] rounded-3xl duration-300 w-6"></span>
+                <span className="flex bg-black h-[4px] rounded-3xl duration-300 w-6 mt-1"></span>
+                <span className="flex bg-black h-[4px] rounded-3xl duration-300 w-6 mt-1"></span>
               </div>
             ) : (
               <div className="z-20 relative">

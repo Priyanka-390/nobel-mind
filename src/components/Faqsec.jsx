@@ -25,8 +25,8 @@ const Faqsec = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <div id="faq" className="lg:pb-36 md:pb-28 sm:pb-20 relative z-10 overflow-x-clip">
-      <img src={triangle2} alt="triangle" className="absolute top-[-5%] left-[5%] animate-bounce-slow" />
-       <img src={triangle2} alt="triangle" className="absolute top-[50%] right-[3%] animate-bounce-slow" />
+      <img src={triangle2} alt="triangle" className="absolute md:block hidden top-[-5%] left-[5%] animate-bounce-slow" />
+       <img src={triangle2} alt="triangle" className="absolute md:block hidden top-[50%] right-[3%] animate-bounce-slow" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <h2 data-aos="fade-down" className="text-center font-outfit lg:text-5xl sm:text-4xl text-3xl md:leading-[57.6px] font-light">
           Frequently <span className="font-semibold">Asked Questions</span>

@@ -91,7 +91,7 @@ const Contactus = () => {
                   </label>
                   <input
                     type="text"
-                    className="w-full h-[48px] rounded-lg border-solid border border-[#13120033]"
+                    className="w-full ps-3 h-[48px] focus-visible:outline-none rounded-lg border-solid border border-[#13120033]"
                     name="lastname"
                     value={formData.lastname}
                     onChange={handleChange}
@@ -110,7 +110,7 @@ const Contactus = () => {
                   value={formData.email}
                   onChange={handleChange}
                   type="text"
-                  className="w-full h-[48px] rounded-lg border-solid border border-[#13120033]"
+                  className="w-full h-[48px] ps-3 focus-visible:outline-none  rounded-lg border-solid border border-[#13120033]"
                 />
                 {formErrors.email && (
                   <p className=" text-red-600">{formErrors.email}</p>
@@ -122,7 +122,7 @@ const Contactus = () => {
                 </label>
                 <textarea
                   name="message"
-                  className="h-[133px] w-full rounded-lg border-solid border border-[#13120033]"
+                  className="h-[133px] resize-none w-full rounded-lg border-solid border border-[#13120033]"
                 ></textarea>
               </div>
               {formErrors.checkbox && (

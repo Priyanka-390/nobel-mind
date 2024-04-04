@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import triangle from "../assets/images/herotriangle.webp"
+import Buttons from "./Buttons";
 
 const Subscribesec = () => {
      const [formData, setFormData] = useState({
@@ -55,12 +56,20 @@ const Subscribesec = () => {
                   value={formData.email}
                   onChange={handleChange}
                 />
-            <input type="submit" value="Subscribe" className="py-[14px] cursor-pointer hover:bg-white hover:text-purple-600 duration-300 transition-all rounded-[4px] mr-[10px] sm:px-6 px-3 border-[1px] text-[#FDFDFF] placeholder: border-solid border-[#FDFDFF] text-base font-semibold" />
-                 </form>
+            <input type="submit" value="Subscribe" className="py-[14px] ml-2 cursor-pointer hover:bg-white hover:text-purple-600 duration-300 transition-all rounded-[4px] mr-[10px] sm:px-6 px-3 border-[1px] text-[#FDFDFF] placeholder: border-solid border-[#FDFDFF] text-base font-semibold" />
+          </form>
+            {formErrors.email && (
+                  <p className=" text-white text-center">{formErrors.email}</p>
+          )}
+          {showSuccessPopup && (
+                <div className="success-popup">
+                  <p className="text-white text-center pt-1">
+                    Form submitted successfully!
+                  </p>
+                </div>
+              )}
               </div>
-                 {formErrors.email && (
-                  <p className=" text-red-600">{formErrors.email}</p>
-                )}
+               
                   
       </div>
     </div>
