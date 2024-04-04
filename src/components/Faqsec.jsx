@@ -20,7 +20,7 @@ function Icon({ id, open }) {
   );
 }
 const Faqsec = () => {
-      const [open, setOpen] = React.useState(0);
+      const [open, setOpen] = React.useState(1);
  
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
