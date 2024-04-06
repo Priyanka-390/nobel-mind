@@ -44,10 +44,6 @@ const Drivingsec = () => {
           }}
           modules={[Virtual, Navigation, Pagination, A11y, Autoplay]}
           loop={true}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
           centeredSlides={true}
           spaceBetween={24}
           slidesPerView={1}
@@ -68,40 +64,40 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-md:max-w-[364px]  mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-md:max-w-[364px]  mx-auto cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Two />
                   </div>
                   <p className="text-[#131200] font-normal text-[20px] font-outfit pt-3 md:leading-[25.2px]">
                     Workplace Harmony
                   </p>
-                  <p className="pt-1 text-[#5A5A4D] max-w-[297px] font-exo font-normal text-base">
+                  <p className="pt-1 text-[#5A5A4D] font-exo font-normal text-base">
                     Create a nurturing and peaceful environment for our staff, fostering growth, well-being, and unity. We are more than a team; we are a family.
                   </p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-md:max-w-[364px] mx-auto cardslider h-[208px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-md:max-w-[364px] mx-auto cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Three />
                   </div>
                   <p className="text-[#131200] font-normal text-[20px] font-outfit pt-3 md:leading-[25.2px]">
                     Ethical Leadership
                   </p>
-                  <p className="pt-1 text-[#5A5A4D] max-w-[297px] font-exo font-normal text-base">
+                  <p className="pt-1 text-[#5A5A4D] font-exo font-normal text-base">
                     Maintain the highest standards in all practices, ensuring our solutions are responsible, safe, and transparent.
                   </p>
                 </div>
                   </SwiperSlide>
                    <SwiperSlide>
-                <div className="card mx-auto max-md:max-w-[364px] cardslider h-[208px] p-[18px] border rounded-[12px] border-[#A854E933]">
+                <div className="card mx-auto max-md:max-w-[364px] cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px] border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Three />
                   </div>
                   <p className="text-[#131200] font-normal text-[20px] font-outfit pt-3 md:leading-[25.2px]">
                     Ethical Leadership
                   </p>
-                  <p className="pt-1 text-[#5A5A4D] max-w-[297px] font-exo font-normal text-base">
+                  <p className="pt-1 text-[#5A5A4D]  font-exo font-normal text-base">
                     Maintain the highest standards in all practices, ensuring our solutions are responsible, safe, and transparent.
                   </p>
                 </div>

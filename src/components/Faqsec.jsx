@@ -21,7 +21,6 @@ function Icon({ id, open }) {
 }
 const Faqsec = () => {
       const [open, setOpen] = React.useState(1);
- 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <div id="faq" className="lg:pb-36 md:pb-28 sm:pb-20 relative z-10 overflow-x-clip">
@@ -49,7 +48,7 @@ const Faqsec = () => {
                         </Accordion>
               </div>
               <div   className={`border border-[#A854E933] md:mb-[18px] mb-3 shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
-            open === 2 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
+            open === 2 ? "border-[#A854E9] !after:block " : "after:hidden"}`}>
                   <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
             open === 2 ? "pb-3" : ""
@@ -93,7 +92,6 @@ const Faqsec = () => {
                         </Accordion>
               </div>
           </div>
-
       </div>
     </div>
   );

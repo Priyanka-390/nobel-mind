@@ -6,9 +6,9 @@ import Buttons from "./Buttons";
 
 const Aboutus = () => {
   return (
-    <div id="about" className=" lg:py-36 md:py-28 sm:py-20 py-10 relative z-10 overflow-x-clip">
+    <div id="about" className=" lg:py-36 md:py-28 sm:py-20 py-10 relative overflow-x-clip">
       <img src={triangle} alt="triangle" className=" absolute top-[-5%] left-[5%] animate-bounce-slow" />
-      <img src={triangle} alt="triangle" className=" absolute bottom-[15%] right-[5%] animate-bounce-slow" />
+      <img src={triangle} alt="triangle" className=" absolute bottom-[15%] right-[5%] lg:block hidden animate-bounce-slow" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex items-center flex-row -mx-3 flex-wrap">
           <div className="md:w-6/12 px-3 flex md:justify-start md:mx-0 mx-auto justify-center" data-aos="fade-right">

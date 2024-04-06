@@ -140,7 +140,7 @@ const Contactus = () => {
             </form>
           </div>
           <div className="md:w-6/12 px-3 md:pb-0 pb-4" data-aos="fade-left">
-            <img src={formimg} alt="imgf" className="rounded-[12px]" />
+            <img src={formimg} alt="imgf" className="rounded-[12px] w-full" />
           </div>
         </div>
       </div>
