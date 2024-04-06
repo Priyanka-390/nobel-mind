@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import triangle from "../assets/images/herotriangle.webp"
-import Buttons from "./Buttons";
 
 const Subscribesec = () => {
      const [formData, setFormData] = useState({
@@ -41,7 +40,7 @@ const Subscribesec = () => {
     });
   };
   return (
-      <div id="subscribe" className="relative overflow-x-clip">
+      <div id="subscribe" className="relative overflow-x-clip max-md:-mt-5">
           <img src={triangle} alt="1" className="absolute top-0 left-[3%] animate-bounce-slow" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="bg-[url(./assets/images/newsbg.webp)] px-3 translate-y-24 rounded-[20px] py-16 bg-center bg-cover">

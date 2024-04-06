@@ -40,7 +40,7 @@ const Faqsec = () => {
             open === 1 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(1)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
-            open === 1 ? "pb-3" : ""
+            open === 1 ? "pb-3 !opacity-100" : "!opacity-70"
           }`}>What is Artificial Intelligence (AI)?</AccordionHeader>
                           <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
@@ -51,7 +51,7 @@ const Faqsec = () => {
             open === 2 ? "border-[#A854E9] !after:block " : "after:hidden"}`}>
                   <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
-            open === 2 ? "pb-3" : ""
+            open === 2 ? "pb-3 !opacity-100" : "!opacity-70"
           }`}>How does AI benefit our company?</AccordionHeader>
                            <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
@@ -62,7 +62,7 @@ const Faqsec = () => {
             open === 3 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(3)}     className={`pb-6 pt-6 sm:px-6 px-3 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-            open === 3 ? "pb-3" : ""
+            open === 3 ? "pb-3 !opacity-100" : "!opacity-70"
           }`}>What types of AI technologies are relevant to our industry?</AccordionHeader>
                          <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
@@ -73,7 +73,7 @@ const Faqsec = () => {
             open === 4 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(4)}     className={`pb-6 pt-6 text-start sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
-            open === 4 ? "pb-3" : ""
+            open === 4 ? "pb-3 !opacity-100" : "!opacity-70"
           }`}>How can our employees adapt to AI integration?</AccordionHeader>
                           <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
@@ -84,7 +84,7 @@ const Faqsec = () => {
             open === 5 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(5)}     className={`pb-6 text-start pt-6 sm:px-6 px-3 font-outfit text-sm sm:text-base font-medium text-black ${
-            open === 5 ? "pb-3" : ""
+            open === 5 ? "pb-3 !opacity-100" : "!opacity-70"
           }`}>How can our company ensure data security with AI?</AccordionHeader>
                             <AccordionBody className="pb-6 sm:px-6 px-3 font-exo text-sm sm:text-base text-black opacity-70 max-w-[710px]">
                           Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import formimg from "../assets/images/formimg.webp";
 import Buttons from "./Buttons";
 
@@ -122,7 +122,7 @@ const Contactus = () => {
                 </label>
                 <textarea
                   name="message"
-                  className="h-[133px] resize-none w-full rounded-lg border-solid border border-[#13120033]"
+                  className="h-[133px] focus-visible:outline-none p-3 resize-none w-full rounded-lg border-solid border border-[#13120033]"
                 ></textarea>
               </div>
               {formErrors.checkbox && (

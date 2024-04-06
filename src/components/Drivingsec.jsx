@@ -18,7 +18,7 @@ const Drivingsec = () => {
   return (
     <div id="driving" className="relative  overflow-x-clip">
       <img src={triangle} alt="triangle" className="absolute top-[5%] sm:block hidden left-[3%] animate-bounce-slow" />
-      <img src={triangle} alt="triangle" className="absolute bottom-[7%] sm:block hidden right-[3%] animate-bounce-slow" />
+      <img src={triangle} alt="triangle" className="absolute bottom-[7%] sm:block hidden right-[2%] animate-bounce-slow" />
           <img src={drivingimg} alt="driving" className="md:hidden rounded-[30px] block max-md:h-[300px] h-full object-cover px-3" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex justify-center md:pt-0 pt-4" data-aos="flip-down">
@@ -30,7 +30,7 @@ const Drivingsec = () => {
           </p>
         </div>
         <h2 data-aos="flip-down" className=" font-light sm:pt-2 pt-1 text-center font-outfit md:leading-[57.6px] lg:text-5xl sm:text-4xl text-3xl text-black">
-          Driving Innovation &{" "}
+          Driving Innovation &{" "}  
           <span className="font-semibold block">Transforming Industries</span>
         </h2>
               <Swiper
@@ -50,7 +50,7 @@ const Drivingsec = () => {
           pagination={{ clickable: true }}
           className="lg:!py-[52px] md:!py-10 !py-8">
             <SwiperSlide>
-                <div className="card max-md:max-w-[364px] mx-auto cardslider h-[210px] p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-md:max-w-[364px] mx-auto cardslider lg:!h-[210px] p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <One />
                   </div>
@@ -64,7 +64,7 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-md:max-w-[364px]  mx-auto cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-md:max-w-[364px]  mx-auto cardslider lg:!h-[210px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Two />
                   </div>
@@ -77,7 +77,7 @@ const Drivingsec = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="card max-md:max-w-[364px] mx-auto cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
+                <div className="card max-md:max-w-[364px] mx-auto cardslider lg:!h-[210px] h-full p-[18px] border rounded-[12px]  border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Three />
                   </div>
@@ -90,7 +90,7 @@ const Drivingsec = () => {
                 </div>
                   </SwiperSlide>
                    <SwiperSlide>
-                <div className="card mx-auto max-md:max-w-[364px] cardslider lg:h-[208px] h-full p-[18px] border rounded-[12px] border-[#A854E933]">
+                <div className="card mx-auto max-md:max-w-[364px] cardslider lg:!h-[210px] h-full p-[18px] border rounded-[12px] border-[#A854E933]">
                   <div className="w-[36px] h-[36px] rounded-full flex justify-center items-center border-[6px] bg-white border-[#A854E93D]">
                     <Three />
                   </div>
