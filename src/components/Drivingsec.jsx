@@ -1,5 +1,5 @@
 import React from "react";
-import triangle from "../assets/images/herotriangle.webp"
+import triangle from "../assets/images/svg/triangle.svg"
 import drivingimg from "../assets/images/drivingimg.webp"
 import { One, Star, Three, Two } from "./Icon";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -44,6 +44,10 @@ const Drivingsec = () => {
           }}
           modules={[Virtual, Navigation, Pagination, A11y, Autoplay]}
           loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction:false,
+          } }
           centeredSlides={true}
           spaceBetween={24}
           slidesPerView={1}

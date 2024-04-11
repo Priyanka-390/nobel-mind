@@ -1,6 +1,6 @@
 import React from "react";
 import aboutimg from "../assets/images/aboutusimg.webp";
-import triangle from "../assets/images/herotriangle.webp"
+import triangle from "../assets/images/svg/triangle.svg"
 import { Star } from "./Icon";
 import Buttons from "./Buttons";
 

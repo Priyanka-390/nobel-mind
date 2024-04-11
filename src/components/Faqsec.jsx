@@ -1,5 +1,5 @@
 import React from "react";
-import triangle2 from "../assets/images/herotriangle.webp"
+import triangle2 from "../assets/images/svg/triangle.svg"
 import {
   Accordion,
   AccordionHeader,

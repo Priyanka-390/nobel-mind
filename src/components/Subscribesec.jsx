@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import triangle from "../assets/images/herotriangle.webp"
+import triangle from "../assets/images/svg/triangle.svg"
 
 const Subscribesec = () => {
      const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ const Subscribesec = () => {
   };
   return (
       <div id="subscribe" className="relative overflow-x-clip max-md:-mt-5">
-          <img src={triangle} alt="1" className="absolute top-0 left-[3%] animate-bounce-slow" />
+          <img src={triangle} alt="1" className="absolute md:block hidden top-0 left-[3%] animate-bounce-slow" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="bg-[url(./assets/images/newsbg.webp)] px-3 translate-y-24 rounded-[20px] py-16 bg-center bg-cover">
           <h2 data-aos="fade-down" className="text-center text-[#FDFDFF] lg:text-5xl sm:text-4xl text-3xl md:leading-[57.6px] font-outfit font-light">
@@ -50,7 +50,7 @@ const Subscribesec = () => {
           <p data-aos="fade-down" className="sm:pt-2 pt-1 md:pb-9 sm:pb-6 pb-4 text-[#FDFDFF] sm:text-base text-sm font-normal text-center">
             Be the first to get exclusive offers and the latest news.
                   </p>
-                  <form onSubmit={handleSubmit} className="max-w-[448px] bg-[#8E62DC] text-white rounded-md flex justify-between py-3 bg-transparent border-[#FDFDFF33] border mx-auto">
+                  <form onSubmit={handleSubmit} className="max-w-[448px] bg-[#8E61D9] text-white rounded-md flex justify-between py-3 bg-transparent border-[#FDFDFF33] border mx-auto">
                       <input type="email" placeholder="Enter your email" className=" pl-6 w-full focus-visible:outline-none text-white placeholder:text-[#FDFDFF] bg-transparent"  name="email"
                   value={formData.email}
                   onChange={handleChange}

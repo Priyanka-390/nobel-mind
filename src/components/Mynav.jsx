@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import navlogo from "../assets/images/navlogo.png"
+import navlogo from "../assets/images/svg/navlogo.svg"
 import Buttons from './Buttons'
 
 const Mynav = () => {
@@ -25,7 +25,9 @@ const Mynav = () => {
                       <li><a href="#driving" onClick={nav} className=' font-exo font-normal hover:text-[#131200] text-base md:leading-[24px] text-[#5A594D]'>Why Choose Us</a></li>
                       <li><a href="#contact" onClick={nav} className=' font-exo font-normal text-base md:leading-[24px] text-[#5A594D]'>Blogs</a></li>
                       <li><a href="#faq" onClick={nav} className=' font-exo font-normal hover:text-[#131200] mr-4 text-base md:leading-[24px] text-[#5A594D]'>FAQ</a></li>
-                      <li><Buttons text="Contact Us" /></li>
+                      <li><a href="#contact">
+                        <Buttons text="Contact Us" />
+                      </a></li>
                   </ul>
                    <label className=" lg:hidden" onClick={nav}>
             {show ? (

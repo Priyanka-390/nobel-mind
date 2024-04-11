@@ -1,14 +1,14 @@
 import React from "react";
-import footerlogo from "../assets/images/footerlogo.webp";
+import footerlogo from "../assets/images/svg/footerlogo.svg";
 import { Facebookicon, Insta, Linkdin, Twitter } from "./Icon";
 
 const Footer = () => {
    const p = new Date();
   const year = p.getFullYear();
   return (
-    <div className=" pt-32 bg-[url(./assets/images/bg-footer.webp)]  overflow-x-clip">
+    <div className="pt-32  bg-[url(./assets/images/bg-footer.webp)]  overflow-x-clip">
       <div className="container pt-2 max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
-        <div className="flex flex-wrap justify-between flex-row -mx-3 pb-[52px]">
+        <div className="flex flex-wrap justify-between flex-row -mx-3 lg:pb-[52px] pb-8">
           <div className="lg:w-1/3 md:w-1/2 px-3">
             <img src={footerlogo} alt="flogo" className="pb-7 cursor-pointer " />
             <p className=" font-exo pb-2 font-normal sm:text-base text-sm text-white">
@@ -139,7 +139,7 @@ const Footer = () => {
         </div>
           </div>
           <div className="border-[#FFFFFF4D] border w-full"></div>
-      <p className=" font-exo px-3 text-[#B8B8B4] pt-4 pb-9 text-center font-normal text-sm">© Copyright {year } Noble Mind | All rights reserved. </p>
+      <p className=" font-exo px-3 text-[#B8B8B4] lg:pt-4 lg:pb-9 py-3 text-center font-normal text-sm">© Copyright {year } Noble Mind | All rights reserved. </p>
     </div>
   );
 };

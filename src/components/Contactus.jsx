@@ -61,7 +61,7 @@ const Contactus = () => {
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="flex flex-col-reverse md:flex-row items-center flex-wrap -mx-3">
           <div className="md:w-6/12 px-3 flex md:justify-start justify-center flex-col md:mx-0 mx-auto" data-aos="fade-right">
-            <h2 className=" font-outfit font-semibold lg:text-5xl sm:text-4xl text-3xl md:leading-[57.6px]">
+            <h2 className=" font-outfit font-semibold lg:text-5xl sm:text-4xl text-3xl md:text-start text-center md:leading-[57.6px]">
               Contact <span className="font-light"> Us</span>{" "}
             </h2>
             <p className="lg:py-4 md:py-3 py-2 font-exo font-normal text-base text-[#5A594D]">
@@ -128,7 +128,9 @@ const Contactus = () => {
               {formErrors.checkbox && (
                 <p className="text-red-600 pt-1">{formErrors.checkbox}</p>
               )}
-              <Buttons type="submit" text="Submit" />
+              <div className="flex md:justify-start justify-center">
+                <Buttons type="submit" text="Submit" />
+              </div>
               {showSuccessPopup && (
                 <div className="success-popup">
                   <p className="text-white pt-1">
