@@ -29,20 +29,18 @@ const Aboutus = () => {
                 -Driven Sectoral <span className="lg:block"></span> Innovation
               </span>
             </h2>
-            <p className=" font-exo text-[#4D4D4D] lg:pt-4 md:pt-3 pt-2 md:pb-11 sm:pb-9 pb-4 font-normal md:text-start text-center sm:text-base text-sm md:leading-6">
+            <p className=" font-exo text-[#4D4D4D] max-w-[491px] lg:pt-4 md:pt-3 pt-2 md:pb-11 sm:pb-9 pb-4 font-normal md:text-start text-center sm:text-base text-sm md:leading-6">
               Imagine a future in Saudi Arabia influenced by the potential of
-              Al, <span className="lg:block"></span> with Noble Mind at the
+              Al, with Noble Mind at the
               forefront of this transformation. Healthcare
-              <span className="lg:block"></span> stands to gain with the promise of
-              enhanced data precision. In <span className="lg:block"></span>
+               stands to gain with the promise of
+              enhanced data precision. In 
               education, there's the potential for individualized learning
-              <span className="lg:block"></span> experiences. Finance could witness
+              experiences. Finance could witness
               seamless transactions, and entertainment may revel in customized
-              experiences. Through Al's <span className="lg:block"></span> promise,
-              transportation could innovate and cities might adapt
-              <span className="lg:block"></span> smarter infrastructures. In every
-              domain, the vision of Noble Mind <span className="md:block"></span>
-              hints at a brighter, more efficient nation.
+              experiences. Through Al's  promise,
+              transportation could innovate and cities might adapt smarter infrastructures. In every
+              domain, the vision of Noble Mind  hints at a brighter, more efficient nation.
                       </p>
                       <div className="flex md:justify-start justify-center">
                         <Buttons text="Read More" />
