@@ -42,7 +42,7 @@ function App()
         </div>
       ) : (
     <div className=' overflow-x-clip'>
-      <div className='bg-[url(./assets/images/bgimg.webp)] after:bg-white after:w-full after:absolute relative max-lg:after:h-full after:opacity-[0.8] after:z-[-1] z-[1] flex flex-col bg-no-repeat lg:bg-size sm:min-h-screen  bg-center min-h-[550px]'>
+      <div className='bg-[url(./assets/images/bgimg.webp)] after:bg-white after:w-full after:absolute relative max-lg:after:h-full after:opacity-[0.8] after:z-[-1] z-[1] flex flex-col bg-no-repeat lg:bg-size xl:min-h-screen md:min-h-[600px] bg-center min-h-[550px]'>
         <Mynav />
         <Herosec/>
       </div>
